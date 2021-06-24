@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccueilActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/message_accueil"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:visibility="gone"></TextView>
+
+            <ImageView
+                android:layout_width="194dp"
+                android:layout_height="204dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/corus_foreground"></ImageView>
+
+            <Button
+                android:id="@+id/remplir_formulaire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:text="@string/remplir_fiche">
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

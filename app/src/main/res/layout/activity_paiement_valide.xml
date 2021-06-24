@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaiementValideActivity"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="187dp"
+                android:layout_height="219dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_check_circle_primary_48dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_paiement_valide"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/btnQuittance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quittance_paiement" />
+
+            <Button
+                android:id="@+id/btnNouveau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nouveau" />
+
+            <Button
+                android:id="@+id/btnAccueil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accueil" />
+
+            <Button
+                android:id="@+id/btnQuitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quitter"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
